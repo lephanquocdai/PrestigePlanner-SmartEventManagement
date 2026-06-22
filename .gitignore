@@ -1,0 +1,45 @@
+# ==========================================
+# Root Gitignore for Event Management Project
+# ==========================================
+
+# --- Common / OS ---
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# --- Frontend (Event-Management-Website) ---
+Event-Management-Website/node_modules/
+Event-Management-Website/dist/
+Event-Management-Website/build/
+Event-Management-Website/.env
+Event-Management-Website/.env.local
+Event-Management-Website/.env.development.local
+Event-Management-Website/.env.test.local
+Event-Management-Website/.env.production.local
+Event-Management-Website/npm-debug.log*
+Event-Management-Website/yarn-debug.log*
+Event-Management-Website/yarn-error.log*
+
+# --- Backend (Event-Management-Backend) ---
+Event-Management-Backend/target/
+Event-Management-Backend/!.mvn/wrapper/maven-wrapper.jar
+Event-Management-Backend/.apt_generated
+Event-Management-Backend/.classpath
+Event-Management-Backend/.factorypath
+Event-Management-Backend/.project
+Event-Management-Backend/.settings
+Event-Management-Backend/.springBeans
+Event-Management-Backend/.sts4-cache
+Event-Management-Backend/*.iws
+Event-Management-Backend/*.iml
+Event-Management-Backend/*.ipr
+Event-Management-Backend/.env
+Event-Management-Backend/.env.local
+
+# --- Docker ---
+.docker/
